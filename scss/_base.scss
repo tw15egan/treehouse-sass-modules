@@ -3,8 +3,8 @@
 // ==========================================================================
 
 * {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  text-align:center;
+  text-align: center;
   padding: em(48px) 0;
 }
 
@@ -24,34 +24,34 @@ h1 {
   font-size: em(42px);
   line-height: (46px / 42px);
   margin-bottom: em(70px, 42px);
-	color: palette(grey, x-dark);
+  color: palette(grey, x-dark);
 }
 
 h2 {
   font-family: $font-family--secondary;
   font-weight: $font-weight--thin;
   font-size: em(24px);
-	color: palette(grey, light);
+  color: palette(grey, light);
 }
 
 h3 {
-	font-size: em(18px);
+  font-size: em(18px);
 }
 
 h4 {
-	margin-top: em(22px, 14px);
-	margin-bottom: em(32px, 14px);
-	color: palette(grey, x-light);
-	text-transform: uppercase;
-	letter-spacing: $letter-space;
-	font-weight: $font-weight--medium;
-	font-size: em(14px);
+  margin-top: em(22px, 14px);
+  margin-bottom: em(32px, 14px);
+  color: palette(grey, x-light);
+  text-transform: uppercase;
+  letter-spacing: $letter-space;
+  font-weight: $font-weight--medium;
+  font-size: em(14px);
 }
 
 a {
-	color: palette(grey, dark); 
-	text-decoration: none;
-	font-weight: $font-weight--medium;
+  color: palette(grey, dark);
+  text-decoration: none;
+  font-weight: $font-weight--medium;
 }
 
 // Lists
@@ -65,20 +65,20 @@ li {
 
 // Form elements
 
-input, 
+input,
 textarea {
-	display: block;
-	outline: 0;
-	border: 0;
+  display: block;
+  outline: 0;
+  border: 0;
 }
 
-input:focus, 
+input:focus,
 textarea:focus {
-	transition: $trns_duration;
+  transition: $trns_duration;
 }
 
 // Button
 
 button {
-	outline: 0;
+  outline: 0;
 }

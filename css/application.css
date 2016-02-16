@@ -70,7 +70,7 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: .67em 0; }
 
 mark {
   background: #ff0;
@@ -174,7 +174,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: .35em .625em .75em; }
 
 legend {
   border: 0;
@@ -193,6 +193,36 @@ table {
 td,
 th {
   padding: 0; }
+
+[class^="btn--"] {
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 0.4em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  font-weight: 400;
+  transition: opacity 0.3s;
+  display: block; }
+  [class^="btn--"]:hover {
+    opacity: .75; }
+  [class^="btn--"]:active {
+    opacity: initial; }
+
+.nav__item, .nav__item--current {
+  display: inline-block;
+  margin: 0 0.75em; }
+
+.nav__item a, .nav__item--current a {
+  font-size: 1.125em;
+  font-weight: 300;
+  display: block;
+  padding: 0.44444em;
+  border-bottom: 1px solid transparent; }
+
+.nav__item a:hover, .nav__item--current a {
+  color: #0b0b0b;
+  border-color: #52bab3; }
 
 * {
   -moz-box-sizing: border-box;
@@ -257,25 +287,10 @@ textarea:focus {
 button {
   outline: 0; }
 
-[class^="btn--"] {
-  padding: 15px 30px;
-  border: 0;
-  border-radius: 0.4em;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 0.875em;
-  font-weight: 400;
-  transition: opacity 0.3s;
-  display: block; }
-  [class^="btn--"]:hover {
-    opacity: .75; }
-  [class^="btn--"]:active {
-    opacity: initial; }
-
 .container {
   max-width: 62.5em;
   margin: 0 auto;
-  padding: 0 0.9375em 3.125em 0.9375em; }
+  padding: 0 0.9375em 3.125em; }
 
 .site-logo {
   background-image: url("../img/logo.svg");
@@ -318,18 +333,7 @@ button {
 .nav {
   margin-top: 1.25em;
   margin-bottom: 1.875em; }
-  .nav__item {
-    display: inline-block;
-    margin: 0 0.75em; }
-    .nav__item a {
-      font-size: 1.125em;
-      font-weight: 300;
-      color: #797e83;
-      display: block;
-      padding: 0.44444em;
-      border-bottom: 1px solid transparent; }
-    .nav__item--current a {
-      color: #0b0b0b;
-      border-color: #52bab3; }
+  .nav__item a {
+    color: #797e83; }
 
 /*# sourceMappingURL=application.css.map */
